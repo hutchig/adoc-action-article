@@ -15,3 +15,9 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn
+    - name: Archive PDF
+        uses: actions/upload-artifact@v1
+        with:
+          name: pdf-document
+          path: target/generated-docs/index.pdf
+
