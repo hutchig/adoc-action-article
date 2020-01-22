@@ -1,0 +1,35 @@
+:page-layout: general-reference
+:page-type: general
+:toc: left
+:sectnums:
+:favicon: images/favicon.ico
+:keywords: 
+=  Example Article
+Gordon Hutchison <https://twitter.com/gordhut[@gordhut]>
+ifndef::imagesdir[:imagesdir: images]
+ifndef::sourcedir[:sourcedir: ../../main/java]
+
+This is an example article.
+
+== Introduction
+
+This could be a useful article.
+
+== Java Example
+We are describing Java code.
+
+[source,java]
+.Java code from project
+----
+include::{sourcedir}/code/SimpleClass.java[tags=setName,indent=0]
+----
+
+== Images
+
+[.thumb]
+image::JuanEstruch.jpg[scaledwidth=75%]
+
+== Chapters
+
+include::chapters/chap1.adoc[]
+
