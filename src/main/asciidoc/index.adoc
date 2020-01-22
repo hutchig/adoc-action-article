@@ -16,7 +16,7 @@ This is an example article.
 This could be a useful article.
 
 == Java Example
-We are describing Java code.
+We are describing Java code, at least some text that looks like Java!
 
 [source,java]
 .Java code from project
