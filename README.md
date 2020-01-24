@@ -1,2 +1,2 @@
 # adoc-action-article
-Exploring Github actions to format articles
+Exploring Github actions to format articles!
